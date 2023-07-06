@@ -16,8 +16,6 @@ while (parseInt(guess) !==targetNum) {
     } else {
         guess = parseInt(prompt("Too low! Enter a new guess:"));
     }
-
-    }
 }
 if (guess === 'q'){
     console.log("Ok, you quit!")
